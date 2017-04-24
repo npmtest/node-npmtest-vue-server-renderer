@@ -1,4 +1,7 @@
-# test coverage for  [vue-server-renderer (v2.2.6)](https://github.com/vuejs/vue/tree/dev/packages/vue-server-renderer#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-vue-server-renderer.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-vue-server-renderer) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-vue-server-renderer.svg)](https://travis-ci.org/npmtest/node-npmtest-vue-server-renderer)
+# npmtest-vue-server-renderer
+
+#### basic test coverage for  [vue-server-renderer (v2.2.6)](https://github.com/vuejs/vue/tree/dev/packages/vue-server-renderer#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-vue-server-renderer.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-vue-server-renderer) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-vue-server-renderer.svg)](https://travis-ci.org/npmtest/node-npmtest-vue-server-renderer)
+
 #### server renderer for Vue 2.0
 
 [![NPM](https://nodei.co/npm/vue-server-renderer.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/vue-server-renderer)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-vue-server-renderer/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-vue-server-renderer/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-vue-server-renderer/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-vue-server-renderer/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-vue-server-renderer/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-vue-server-renderer/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-vue-server-renderer/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-vue-server-renderer/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-vue-server-renderer/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-vue-server-renderer/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-vue-server-renderer/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-vue-server-renderer/build/coverage.html/index.html)
 
@@ -72,7 +75,8 @@
         "url": "git+https://github.com/vuejs/vue.git"
     },
     "scripts": {},
-    "version": "2.2.6"
+    "version": "2.2.6",
+    "bin": {}
 }
 ```
 
