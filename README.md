@@ -1,6 +1,6 @@
 # npmtest-vue-server-renderer
 
-#### basic test coverage for  [vue-server-renderer (v2.2.6)](https://github.com/vuejs/vue/tree/dev/packages/vue-server-renderer#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-vue-server-renderer.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-vue-server-renderer) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-vue-server-renderer.svg)](https://travis-ci.org/npmtest/node-npmtest-vue-server-renderer)
+#### basic test coverage for  [vue-server-renderer (v2.3.0)](https://github.com/vuejs/vue/tree/dev/packages/vue-server-renderer#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-vue-server-renderer.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-vue-server-renderer) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-vue-server-renderer.svg)](https://travis-ci.org/npmtest/node-npmtest-vue-server-renderer)
 
 #### server renderer for Vue 2.0
 
@@ -42,18 +42,20 @@
         "url": "https://github.com/vuejs/vue/issues"
     },
     "dependencies": {
-        "de-indent": "^1.0.2",
+        "chalk": "^1.1.3",
+        "hash-sum": "^1.0.2",
         "he": "^1.1.0",
+        "lodash.template": "^4.4.0",
         "resolve": "^1.2.0",
-        "source-map": "0.5.6",
-        "vue-ssr-html-stream": "^2.1.0"
+        "serialize-javascript": "^1.3.0",
+        "source-map": "0.5.6"
     },
     "description": "server renderer for Vue 2.0",
     "devDependencies": {},
     "directories": {},
     "dist": {
-        "shasum": "0a20535544b6948bca076380d058e19bb1304eef",
-        "tarball": "https://registry.npmjs.org/vue-server-renderer/-/vue-server-renderer-2.2.6.tgz"
+        "shasum": "2bca0dc11ff47226b70851aa78c579a0db3d5464",
+        "tarball": "https://registry.npmjs.org/vue-server-renderer/-/vue-server-renderer-2.3.0.tgz"
     },
     "homepage": "https://github.com/vuejs/vue/tree/dev/packages/vue-server-renderer#readme",
     "keywords": [
@@ -75,7 +77,7 @@
         "url": "git+https://github.com/vuejs/vue.git"
     },
     "scripts": {},
-    "version": "2.2.6",
+    "version": "2.3.0",
     "bin": {}
 }
 ```
